@@ -72,6 +72,9 @@ go run main.go
 bash
 curl http://localhost:8080/
 
+* Caso o IP_FAKE_TO_TESTER for indicado no arquivo .env, esse IP que será validado no ratelimiter.
+* Caso não seja indicado um IP, o aplicativo pegara o IP da conexão. 
+
 - Testar com o token  
 bash
 curl --location 'http://localhost:8080' \
@@ -87,7 +90,7 @@ curl --location 'http://localhost:8080' \
 
 ```
 
-## Como executar o projeto com Docker
+## Como executar o projeto com Docker (preferência)
 
 ```
 1. Entre na pasta do projeto; 
